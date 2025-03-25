@@ -1,2 +1,3 @@
-#My Portfolio
-https://github.com/wangston9/My-Portfolio.git
+# My Portfolio
+
+Visit my portfolio site here: https://github.com/wangston9/My-Portfolio.git
