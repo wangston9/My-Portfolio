@@ -10,6 +10,7 @@ body {
   color: #333;
   background-color: #f8f9fa;
   line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -30,7 +31,7 @@ h1, h2, h3 {
 a {
   text-decoration: none;
   color: #007bff;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
 a:hover {
@@ -69,11 +70,12 @@ header {
   font-weight: 500;
   padding: 8px 12px;
   border-radius: 4px;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.2s;
 }
 
 .nav-links li a:hover {
   background-color: #f0f0f0;
+  transform: scale(1.05);
 }
 
 /* Home Section */
@@ -110,11 +112,12 @@ header {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .project:hover {
   transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Contact Section */
@@ -140,11 +143,12 @@ button {
   font-size: 1rem;
   border-radius: 5px;
   cursor: pointer;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.2s;
 }
 
 button:hover {
   background: #0056b3;
+  transform: scale(1.02);
 }
 
 /* Footer */
@@ -200,3 +204,4 @@ footer {
     width: 95%;
   }
 }
+
